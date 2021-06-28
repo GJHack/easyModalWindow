@@ -1,0 +1,48 @@
+body {
+  background-color: gray;
+}
+div form {
+  margin-left: 10%;
+  margin-right: 5%;
+  margin-top: 25%;
+}
+div form button {
+  margin-top: 2%;
+  margin-left: 65%;
+  border: 0;
+}
+div form fieldset {
+  border: 0;
+  margin-top: 5%;
+}
+div form input {
+  border-radius: 5px 2px 5px 2px;
+  border: 0;
+}
+div h3 {
+  position: relative;
+  margin-bottom: -20%;
+  margin-left: 5%
+}
+.hiden {
+  transition: all .3s;
+  background-color: white;
+  border-radius: 50%;
+  overflow: hidden;
+  display: block;
+}
+.showed {
+  position: absolute;
+  outline: 2px solid white;
+  outline-offset: 10px;
+  margin-top: 5%;
+  margin-left: 25%;
+  border-radius: 50%;
+  background-color: rgba(226, 201, 149,.6);
+  overflow: hidden;
+  width: 3px;
+  height: 3px;
+  transition-duration: 1s;
+  transition-property: all;
+  display: block;
+}

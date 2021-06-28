@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Easy Modal Window</title>
+    <link rel="stylesheet" href="css/modalWindow.css">
+  </head>
+  <body>
+
+    <!-- Window Begin -->
+    <div id="modalWindow"> <!--JS take this id -->
+      <h3 id="infoForm">GIVE ME YOU MIND!</h3>
+      <form action="#"> <!-- rewrite action -->
+        <fieldset> Name
+        <input type="text" maxlength="10"></input><br>
+        </fieldset>
+        <fieldset> Email
+        <input type="text" name="" value=""></input><br>
+        </fieldset>
+        <fieldset> Phone
+        <input type="text" name="" value=""></input><br>
+        </fieldset>
+        <fieldset>
+        <textarea action="#" id="text" rows="3" cols="20"></textarea><br>
+        </fieldset>
+        <button id="sendButton" class="sendButton">Send</button>
+      </form>
+    </div>
+    <button id="showWindow">SHOW</button>
+    <script type="text/javascript" src="js/modalWindow.js"></script>
+    <!-- Window End -->
+  </body>
+</html>
